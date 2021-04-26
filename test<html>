@@ -1,0 +1,27 @@
+<html>
+   <head>
+      <title>Three Column HTML Layout</title>
+   </head>
+   <body>
+      <table width = "100%" border = "3">     
+         <tr valign = "top">
+            <td bgcolor = PaleGoldenRod width = "20%">
+               <b>Main Menu</b><br />
+               Link one<br />
+               Link two<br />
+               Link three<br />
+               Link four
+            </td>			
+            <td bgcolor = snow height = "200" width = "40%">
+               PROCESS LAYOUT EXAMPLE
+            </td>		
+            <td bgcolor = PaleGoldenRod width = "30%">
+               <b>Right Menu</b><br />
+               ADS<br />
+               INFO<br />
+               NEWS
+            </td>
+         </tr>       
+      <table>
+   </body>
+</html>
