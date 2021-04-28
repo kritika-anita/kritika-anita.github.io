@@ -1,106 +1,103 @@
-<style>
-  h1 {
-    font-family: font-family: 'Roboto Mono', monospace;
-    font-family: 'Zen Dots', cursive;
-    color: #05F2DB;
-  }
+ h1 {
+      font-family: 'VT323', monospace;
+      color: #05F2DB;
+    }
 
-  h2 {
-    font-family: font-family: font-family: 'Roboto Mono', monospace;
-    font-family: 'Zen Dots', cursive;
-    color: #F2F2F2;
-  }
+    h2 {
+      font-family: 'VT323', monospace;
+      color: #F2F2F2;
+    }
 
-  body {
-    background-color: #038C7F;
-    text-align: center;
-  }
+    body {
+      background-color: #038C7F;
+      text-align: center;
+    }
 
-  p {
-    color: #05F2DB;
-    text-align: center;
-    font-size: 17px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+    p {
+      color: #05F2DB;
+      text-align: center;
+      font-size: 17px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
-  .topnav {
-    padding: 30px;
-    overflow: hidden;
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    overflow: hidden;
-  }
+    .topnav {
+      padding: 30px;
+      overflow: hidden;
+      width: 100%;
+      font-family: font-family: 'VT323', monospace;
+      overflow: hidden;
+    }
 
-  .topnav a {
-    float: top;
-    color: #05F2DB;
-    text-align: center;
-    padding: 100px;
-    font-size: 22px;
-  }
+    .topnav a {
+      float: top;
+      color: #05F2DB;
+      text-align: center;
+      padding: 100px;
+      font-size: 22px;
+    }
 
-  .topnav a:hover {
-    color: #430161;
-  }
+    .topnav a:hover {
+      color: #430161;
+    }
 
-  .topnav a.active {
-    color: #F2F2F2;
-  }
+    .topnav a.active {
+      color: #F2F2F2;
+    }
 
-  .block1 {
-    float: left;
-    width: 300px;
-    height: 300px;
-    padding: 10px 10px 10 px 10 px;
-    display: inline-block;
-    background-color: #F25835;
-    text-align: center;
-    margin: 40px 10px 10px 60px;
-    cursor: pointer;
-    box-shadow: -6px 6px #05F2DB;
-    overflow: hidden;
-  }
+    .block1 {
+      float: left;
+      width: 300px;
+      height: 300px;
+      padding: 10px 10px 10 px 10 px;
+      display: inline-block;
+      background-color: #F25835;
+      text-align: center;
+      margin: 40px 10px 10px 60px;
+      cursor: pointer;
+      box-shadow: -6px 6px #05F2DB;
+      overflow: hidden;
+    }
 
-  .block2 {
-    float: center;
-    width: 300px;
-    height: 300px;
-    padding: 10px 10px 10 px 10 px;
-    display: inline-block;
-    background-color: #F25835;
-    text-align: center;
-    margin: 40px 10px 10px 10px;
-    cursor: pointer;
-    box-shadow: -6px 6px #05F2DB;
-    overflow: hidden;
-  }
+    .block2 {
+      float: center;
+      width: 300px;
+      height: 300px;
+      padding: 10px 10px 10 px 10 px;
+      display: inline-block;
+      background-color: #F25835;
+      text-align: center;
+      margin: 40px 10px 10px 10px;
+      cursor: pointer;
+      box-shadow: -6px 6px #05F2DB;
+      overflow: hidden;
+    }
 
-  .block3 {
-    float: right;
-    width: 300px;
-    height: 300px;
-    padding: 10px 10px 10 px 10 px;
-    display: inline-block;
-    background-color: #F25835;
-    text-align: center;
-    margin: 40px 60px 10px 10px;
-    cursor: pointer;
-    box-shadow: -6px 6px #05F2DB;
-    overflow: hidden;
-  }
+    .block3 {
+      float: right;
+      width: 300px;
+      height: 300px;
+      padding: 10px 10px 10 px 10 px;
+      display: inline-block;
+      background-color: #F25835;
+      text-align: center;
+      margin: 40px 60px 10px 10px;
+      cursor: pointer;
+      box-shadow: -6px 6px #05F2DB;
+      overflow: hidden;
+    }
 
-  .section-1 {
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 30px 10px;
-    height: 300px;
-    overflow: hidden;
-  }
+    .section-1 {
+      padding: 10px 10px 10px 10px;
+      margin: 10px 10px 30px 10px;
+      height: 300px;
+      overflow: hidden;
+    }
 
-  img {
-    border-radius: 100px;
-    height: 200px;
-    width: 200px;
-    box-shadow: -6px 6px #05F2DB;
-    overflow: hidden;
-  }
-</style>
+    img {
+      border-radius: 100px;
+      height: 200px;
+      width: 200px;
+      box-shadow: -6px 6px #05F2DB;
+      overflow: hidden;
+    }
+
