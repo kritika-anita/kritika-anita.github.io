@@ -31,11 +31,12 @@ function testSum(){
 ```
 ### Have a go at writing a "sum" function below that would make the above function print out `"It works!"`: 
 
-
+console.log(testSum(7));
+// expected output: "It works!"
 
 ### Do you think you would prefer using Unit Testing or Test Driven Development? Why?
 
-
+I would prefer using Test Driven Development, cause it would be useful to have a big picture that works, and then refactor to make it more concise. This may help is saving time in the future, as I can write the test before I impliment it.
 
 
 # Kata
