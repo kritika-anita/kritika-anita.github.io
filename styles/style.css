@@ -1,24 +1,33 @@
-@media only screen 
+/* @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
 
-}
+} */
 
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
-
-}
-
-@media screen 
+    
+  }
+  
+  @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
-}
+  }
+
+  @media only screen and (min-device-width: 375px) {
+    body {
+      background-color: lightblue;
+      text-align: center;
+      font-family: 'VT323', monospace;
+      font-size: 22px;
+    }
+  }
 
 h1 {
       font-family: 'VT323', monospace;
@@ -41,14 +50,6 @@ h1 {
       text-align: left;
 
     }
-    @media only screen and (max-width: 600px) {
-      body {
-        background-color: lightblue;
-        text-align: center;
-        font-family: 'VT323', monospace;
-        font-size: 22px;
-      }
-    }
 
     p {
       color: #F2F2F2;
@@ -58,23 +59,36 @@ h1 {
       padding: 40px;
     }
 
-.container {
-    height: 200px;
-    width: 80%;
-    background: #02756a;
-    margin: 10px auto;
-    position: relative;
-    padding: 20px;
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) { 
+    .container {
+        height: 200px;
+        width: 80%;
+        background: #02756a;
+        margin: 10px auto;
+        position: relative;
+        padding: 20px;
+    }
 }
 
-.container2 {
-  height: 2500px;
-    width: 80%;
-    background: #02756a;
-    margin: 10px auto;
-    position: relative;
-
-}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .container2 {
+      height: 2500px;
+        width: 80%;
+        background: #02756a;
+        margin: 10px auto;
+        position: relative;
+    
+    }
+    
+  }
 
     .block1 {
       float: left;
