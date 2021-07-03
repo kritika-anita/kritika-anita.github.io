@@ -19,20 +19,24 @@
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
   } */
-
-  @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-    body {
-      background-color: rgb(255, 119, 119);
+  @media screen and (min-width : 768px) and (max-width : 1024px){
+    body{
+    background-color: blue;
     }
-    
   }
-  @media only screen and (min-device-width: 320px) {
-    body {
-      background-color: lightblue;
+  
+  @media screen and (min-width : 320px){
+    body{
+    background-color: green;
+    }
+  }
+  
+  @media screen and (min-width : 1200px){
+    body{
+    background-color: yellow;
     }
   }
   body {
-    background-color: #02756a;
     text-align: center;
     font-family: 'VT323', monospace;
     font-size: 22px;
