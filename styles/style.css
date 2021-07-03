@@ -45,6 +45,8 @@ h1 {
       body {
         background-color: lightblue;
         text-align: center;
+        font-family: 'VT323', monospace;
+        font-size: 22px;
       }
     }
 
@@ -129,11 +131,6 @@ h1 {
       width: 200px;
       box-shadow: -6px 6px #05F2DB;
       overflow: hidden;
-    }
-
-    body {
-      font-family: 'VT323', monospace;
-      font-size: 22px;
     }
     
     .navbar {
